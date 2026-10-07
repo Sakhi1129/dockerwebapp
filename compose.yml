@@ -1,8 +1,8 @@
 version: "3.9"
 
 services:
-  devopsdb: sandeepmudipampula/newrepo:db
-    image: 
+  devopsdb: 
+    image: sandeepmudipampula/newrepo:db
     ports:
       - "3306:3306"
     deploy:
