@@ -13,7 +13,7 @@ services:
   application:
     image: sandeepmudipampula/newrepo:javaapp
     ports:
-      - "1119:8080"
+      - "1111:8080"
     deploy:
       replicas: 1
     depends_on:
