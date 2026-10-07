@@ -1,8 +1,8 @@
 version: "3.9"
 
 services:
-  devopsdb:
-    image: shaikmustafa/deepika:db
+  devopsdb: sandeepmudipampula/newrepo:db
+    image: 
     ports:
       - "3306:3306"
     deploy:
@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: shaikmustafa/deepika:app
+    image: sandeepmudipampula/newrepo:javaapp
     ports:
       - "1119:8080"
     deploy:
